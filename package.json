@@ -1,8 +1,30 @@
 {
-  "name": "abu-talha-ansari-portfolio-backend",
+  "name": "abu-talha-ansari-portfolio",
   "version": "1.0.0",
-  "description": "Serverless functions for the portfolio site.",
+  "private": true,
+  "description": "Portfolio site and serverless functions.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
-    "@google/genai": "^1.15.0"
+    "@google/genai": "^1.15.0",
+    "@react-three/drei": "^10.7.4",
+    "@react-three/fiber": "^9.3.0",
+    "framer-motion": "^12.23.12",
+    "lucide-react": "^0.541.0",
+    "maath": "^0.10.8",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "three": "^0.179.1"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^4.2.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3"
   }
 }

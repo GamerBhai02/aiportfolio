@@ -1,6 +1,6 @@
 import type { Handler } from "@netlify/functions";
 import { GoogleGenAI, GenerateContentResponse } from "@google/genai";
-import { personalInfo, technicalSkills, softSkills, experience, education, projects, certifications, interests, languages } from '../../constants';
+import { personalInfo, technicalSkills, softSkills, experience, education, projects, certifications, interests, languages } from '../../src/constants';
 
 const handler: Handler = async (event, context) => {
   if (event.httpMethod !== 'POST') {
