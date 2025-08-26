@@ -1,6 +1,5 @@
-
 import { GoogleGenAI, GenerateContentResponse } from "@google/genai";
-import { personalInfo, skills, experience, education, projects, certifications, interests, languages } from '../constants';
+import { personalInfo, technicalSkills, softSkills, experience, education, projects, certifications, interests, languages } from '../constants';
 
 // IMPORTANT: The API key must be set in the environment variables.
 // Do not hardcode the API key in the code.
@@ -15,7 +14,8 @@ const portfolioDataString = `
   Title: ${personalInfo.title}
   Objective: ${personalInfo.objective}
   About: ${personalInfo.about}
-  Skills: ${skills.join(', ')}
+  Technical Skills: ${technicalSkills.join(', ')}
+  Soft Skills: ${softSkills.join(', ')}
   Experience: ${experience.map(exp => `${exp.role} at ${exp.company} (${exp.period}): ${exp.description}`).join('\n')}
   Education: ${education.map(edu => `${edu.degree} from ${edu.institution} (${edu.period}, ${edu.grade})`).join('\n')}
   Projects: ${projects.map(proj => `${proj.title}: ${proj.description}`).join('\n')}

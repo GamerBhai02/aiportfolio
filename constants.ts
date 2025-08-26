@@ -14,20 +14,25 @@ export const personalInfo = {
   resumeUrl: "/Abu_Talha_Ansari_Resume.pdf", // User needs to add this file to the public folder
 };
 
-export const skills = [
-  "Python", "C", "C++", "SQL", "Java", "JavaScript",
-  "HTML", "CSS", "React.js",
-  "Microsoft Power BI & Excel",
+export const technicalSkills = [
+  "Python", "C++", "SQL", "JavaScript",
+  "React.js", "HTML", "CSS",
   "Machine Learning & Deep Learning",
   "Natural Language Processing",
-  "MySQL", "SQLite", "MongoDB",
+  "TensorFlow", "Keras",
+  "MySQL", "MongoDB", "SQLite",
+  "Microsoft Power BI", "Excel"
+];
+
+export const softSkills = [
   "Problem Solving",
   "Communication & Teamwork",
-  "Time Management",
   "Creativity & Adaptability",
+  "Time Management",
   "Presentation Skills",
   "Critical Thinking"
 ];
+
 
 export const experience: ExperienceItem[] = [
   {
