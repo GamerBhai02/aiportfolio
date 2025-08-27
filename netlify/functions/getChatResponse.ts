@@ -140,7 +140,7 @@ export const projects: Project[] = [
     "liveUrl": "https://gamerbhai02.netlify.app/",
     "repoUrl": "https://github.com/GamerBhai02/aiportfolio"
   }
-]
+];
 
 
 export const certifications: Certification[] = [
