@@ -100,43 +100,48 @@ export const education: EducationItem[] = [
 
 export const projects: Project[] = [
   {
-    title: "Smart Power Grid Theft Detection Using AI",
-    description: "Developed an AI-based anomaly detection system using smart meter data to identify patterns of electricity theft, increasing detection accuracy by 35% compared to traditional methods.",
-    tags: ["Python", "Scikit-learn", "Isolation Forest", "Time Series Analysis"],
-    repoUrl: "https://github.com/GamerBhai02/Smart-Power-Grid-Theft-Detection-Using-AI",
+    "title": "Smart Power Grid Theft Detection Using AI",
+    "description": "Developed an AI-based anomaly detection system using smart meter data to identify patterns of electricity theft, increasing detection accuracy by 35% compared to traditional methods.",
+    "tags": ["Python", "Scikit-learn", "Isolation Forest", "Time Series Analysis"],
+    "liveUrl": "https://electguard.netlify.app/",
+    "repoUrl": "https://github.com/GamerBhai02/electguard"
   },
   {
-    title: "NewsSense: Why Is My Fund Down?",
-    description: "Built a system to analyze mutual fund drops by linking financial data to real-world news using NLP and semantic search. Finalist among top submissions in the hackathon.",
-    tags: ["Python", "Alpha Vantage API", "Sentence Transformers", "FAISS"],
-    repoUrl: "https://github.com/GamerBhai02/NewsSense-Why-Is-My-Fund-Down",
+    "title": "AI-Powered Travel Packing Assistant (PackPal)",
+    "description": "Created an AI assistant that recommends packing lists based on destination, weather, and duration, improving packing efficiency by 40% in user tests.",
+    "tags": ["Python", "Streamlit", "OpenAI API", "Weather API"],
+    "liveUrl": "https://pack-pal.netlify.app/",
+    "repoUrl": "https://github.com/GamerBhai02/PackPal"
   },
   {
-    title: "AI-Powered Travel Packing Assistant (PackPal)",
-    description: "Created an AI assistant that recommends packing lists based on destination, weather, and duration, improving packing efficiency by 40% in user tests.",
-    tags: ["Python", "Streamlit", "OpenAI API", "Weather API"],
-    liveUrl: "https://packpal-ai.streamlit.app/",
-    repoUrl: "https://github.com/GamerBhai02/PackPal",
+    "title": "E-commerce Text Classification",
+    "description": "Implemented deep learning models (LSTM, BI-LSTM, GRU, Attention LSTM) to classify product descriptions, achieving over 90% accuracy with optimized architectures.",
+    "tags": ["Python", "TensorFlow", "Keras", "NLP", "FastText"],
+    "repoUrl": "https://github.com/GamerBhai02/ecommerce-text-classification"
   },
   {
-    title: "Fish-Schooling-Inspired Traffic Simulation",
-    description: "Simulated real-time traffic behavior using fish schooling algorithms to optimize vehicular flow, demonstrating a 25% decrease in congestion.",
-    tags: ["Python", "Pygame", "NumPy"],
-    repoUrl: "https://github.com/GamerBhai02/Fish-Schooling-Inspired-Traffic-Simulation",
+    "title": "Smart Recipe Generator",
+    "description": "Developed a recipe recommendation engine powered by LLMs that suggests personalized recipes based on available ingredients, deployed as a live web app.",
+    "tags": ["React", "Tailwind", "OpenAI API", "Node.js"],
+    "liveUrl": "https://smart-recipe-gen.netlify.app/",
+    "repoUrl": "https://github.com/GamerBhai02/AI_Recipe_Generator"
   },
   {
-    title: "E-commerce Text Classification",
-    description: "Implemented deep learning models (LSTM, BI-LSTM, etc.) to classify product descriptions, achieving over 90% accuracy with optimized architectures.",
-    tags: ["Python", "TensorFlow", "Keras", "NLP", "FastText"],
-    repoUrl: "https://github.com/GamerBhai02/E-commerce-Text-Classification",
+  "title": "Adaptive Music Generator for Workflows",
+  "description": "An intelligent, real-time adaptive music generator that enhances focus and productivity by syncing background music tempo (BPM) with typing speed and mouse activity, adjusting in modes like Focus, Break, and Deadline Rush with smooth transitions.",
+  "tags": ["JavaScript", "Web Audio API", "Activity Detection", "Real-Time", "Frontend", "Productivity Tool"],
+  "liveUrl": "https://adaptive-music-generator.netlify.app/",
+  "repoUrl": "https://github.com/GamerBhai02/adaptive-music-generator"
   },
   {
-    title: "AI-Enhanced Retail Experience",
-    description: "Led development of an AI-powered demo for personal shopping, auto product videos, and eco-score evaluation. Delivered a fully functional prototype.",
-    tags: ["Python", "React", "NLP", "OpenAI", "FFMPEG"],
-    repoUrl: "https://github.com/GamerBhai02",
+    "title": "Personal Portfolio Website",
+    "description": "Designed and developed a modern, dynamic portfolio website with responsive layouts and animations, showcasing projects and skills.",
+    "tags": ["HTML", "CSS", "JavaScript", "React", "Three.js"],
+    "liveUrl": "https://gamerbhai02.netlify.app/",
+    "repoUrl": "https://github.com/GamerBhai02/aiportfolio"
   }
-];
+]
+
 
 export const certifications: Certification[] = [
     { title: "Gen AI Academy Completion Certificate", issuer: "Hack2skill", date: "Aug 2025", skills: ["Google Gemini", "Generative AI", "Google Cloud Platform (GCP)"] },
@@ -153,7 +158,8 @@ export const interests = [
     "Participating in community events and team-building activities",
     "Playing outdoor sports like cricket and badminton",
     "Volunteering and contributing to social causes",
-    "Reading tech blogs and following AI research trends"
+    "Reading tech blogs and following AI research trends",
+    "Love to play adventure and shooting games"
 ];
 
 export const languages = ["English", "Hindi", "Kannada", "Urdu"];
